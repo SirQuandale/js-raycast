@@ -95,11 +95,14 @@ Color.ERROR = new Color(1, 0, 1);
 
 var rawMap = {
     walls: [
-        { start: [0.0, 0.5], end: [0.2, 0.5], texture: 'brick.jpg' },
-        { start: [0.2, 0.5], end: [0.2, 0.3], texture: 'brick.jpg' },
-        { start: [0.2, 0.3], end: [0.8, 0.3], texture: 'orange-damascus.png' },
-        { start: [0.8, 0.3], end: [0.8, 0.5], color: [1, 0, 0] },
-        { start: [0.8, 0.5], end: [1.0, 0.5], color: [0, 0, 1] }
+        // { start: [0.5, 0.5], end: [1.0, 1.0], texture: 'orange-damascus.png' },
+        { start: [1.2, 1.5], end: [1.0, 1.0], texture: 'brick.jpg' },
+        { start: [1.4, 1.5], end: [0.0, 1.0], texture: 'orange-damascus.png' },
+        { start: [2.0, 2.5], end: [0.0, 0.0], texture: 'brick.jpg' },
+        { start: [0.0, 1.0], end: [-2.0, -2.0], texture: 'orange-damascus.png' },
+        // { start: [0.2, 0.3], end: [0.8, 0.3], texture: 'orange-damascus.png' },
+        // { start: [0.8, 0.3], end: [0.8, 0.5], texture: 'orange-damascus.png' },
+        { start: [0.0, 0.0], end: [-1.0, 0.5], texture: 'brick.jpg' }
     ]
 };
 
